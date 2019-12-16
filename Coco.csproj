@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>CocoR</PackageId>
+    <Version>2014.12.22</Version>
+    <Description>The compiler generator Coco/R</Description>
+    <Authors>Hanspeter Mössenböck, Markus Löberbauer, Albrecht Wöß</Authors>
+    <Copyright>(c) 1990, 2005 Hanspeter Moessenboeck, University of Linz</Copyright>
+    <PackageLicenseFile>license.txt</PackageLicenseFile>
+    <PackageProjectUrl>http://www.ssw.uni-linz.ac.at/Coco/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/boogie-org/coco</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>coco</ToolCommandName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="license.txt" Pack="true" PackagePath="license.txt" />
+  </ItemGroup>
+
+</Project>
