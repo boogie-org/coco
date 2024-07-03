@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageId>CocoR</PackageId>
-    <Version>2014.12.24</Version>
+    <Version>2014.12.25</Version>
     <Description>The compiler generator Coco/R</Description>
     <Authors>Hanspeter Mössenböck, Markus Löberbauer, Albrecht Wöß</Authors>
     <Copyright>(c) 1990, 2005 Hanspeter Moessenboeck, University of Linz</Copyright>
@@ -13,7 +13,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net6.0;net5.0;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>net8.0;net6.0;net5.0;netcoreapp3.1</TargetFrameworks>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>coco</ToolCommandName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
